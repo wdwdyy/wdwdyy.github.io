@@ -1,4 +1,4 @@
-* {
+* {color:pink;
     padding: 0;
     margin: 0;
 }
@@ -7,10 +7,10 @@ html, body {
     width: 100%;
     font-family: PingFangSC;
 }
-a {
+a {color:pink;
     text-decoration: none;
 }
-html p {
+html p {color:pink;
     margin: 0;
 }
 .col-3, .col-6, .col-9 {
@@ -39,22 +39,23 @@ html p {
     color: yellow;
     width: 48.5%;
 }
-.col-9 {
+.col-9 {color:pink;
     width: 65%;
 }
-.container {
+.container {color:pink;
     width: 1000px;
     margin: 0 auto;
 }
-.hide {
+.hide {color:pink;
     display: none;
 }
-.hide a {
+.hide a {color:pink;
     text-decoration: initial;
     cursor: pointer;
 }
 .pmessage {
-    position: relative;
+ color:pink;
+   position: relative;
 }
 .pmessage:hover .hide {
     position: absolute;
@@ -62,7 +63,7 @@ html p {
     top: 0px;
     right: 10px;
     font-size: 14px;
-}
+color:pink;}
 .project-detail .pmessage:hover .hide {
     top: 10px;
 }
@@ -70,10 +71,11 @@ html p {
     top: 30px;
 }
 .img-header {
+color:pink;
     width: 1000px;
     height: 300px;
     margin-top: 20px; 
-    background-image: url(../image/Group.png);
+    background-image: url(../image/微信图片_20201017132020.jpg);
 }
 .peasonal-image {
     width: 100px;
@@ -86,7 +88,7 @@ html p {
     padding: 10px 0px;
     background: rgba(11,52,79,0.60);
     width: 313px;
-    color: #fff;
+    color: blue;
 }
 
 .content p {
@@ -94,7 +96,7 @@ html p {
     letter-spacing: 0;
     text-shadow: 0 2px 4px #000000;
     text-align: center;
-}
+color:pink;}
 .content strong {
     font-size: 20px;
     letter-spacing: 0;
@@ -123,12 +125,12 @@ html p {
     margin: 15px 0; 
     font-weight: bold;
     font-size: 16px;
-    color: #022643;
+    color: blue;
     letter-spacing: 1.14px;
 }
 .item p, .item li, .item lable {
     font-size: 14px;
-    color: #022643;
+    color: green;
     line-height: 24px;
 }
 .item lable {
@@ -148,7 +150,7 @@ section .title {
     position: relative;
     font-weight: bold;
     font-size: 26px;
-    color: #022643;
+    color: blue;
     letter-spacing: 3px;
     width: 150px;
     margin: 0 auto;
@@ -157,7 +159,7 @@ section .title {
 section .title.work {
     margin-top: 100px;
     margin-bottom: 30px;
-}
+color:pink;}
 section .title::after, section .title::before {
     position: absolute;
 }
@@ -243,13 +245,13 @@ section .title.about-me::before {
 .project-content p.project-title {
     font-size: 16px;
     font-weight: bold;
-    color: #022643;
+    color: yellow;
     letter-spacing: 1.14px;
 }
 .project-content p.create-time {
     margin-top: 5px; 
     font-size: 14px;
-    color: #767E84;
+    color: yellow;
     letter-spacing: 1px;
 }
 .project-content p.decription {
